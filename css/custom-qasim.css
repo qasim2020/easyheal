@@ -57,3 +57,7 @@
 .text-danger {
   color: #e44c65 !important;
 }
+
+html {
+  /* scroll-behavior: smooth; */
+}
