@@ -88,7 +88,7 @@ p {
 }
 
 .btn-success:hover {
-  background: #222;
+  background: #87CA43;
 }
 
 a {
@@ -99,7 +99,7 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #e44c65;
+  color: #87CA43;
   outline: none;
 }
 
@@ -221,7 +221,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand .navbar-brand-name {
-  color: #304352;
+  color: #2D8733;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 2px;
