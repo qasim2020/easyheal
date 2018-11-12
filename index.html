@@ -344,7 +344,7 @@ proud mother of five. Ammet certified EFT practitioner, qualified Healer and a p
 
 		var data = {name,email,message};
 		data = JSON.stringify(data);
-		$.post(`/sendmail/${data}`)
+		$.post(`https://obscure-sierra-92629.herokuapp.com/sendmail/${data}`)
 		.done((msg) => {
 			console.log(msg);
 		})
