@@ -268,7 +268,7 @@ proud mother of five. Ammet certified EFT practitioner, qualified Healer and a p
 
       </div>
 
-			<p id="error" class="d-none text-danger">Please fill all fields with valid information.</p>
+			<p id="showStatus" class="d-none">Please fill all fields with valid information.</p>
 
     </div>
   </div>
@@ -321,6 +321,7 @@ proud mother of five. Ammet certified EFT practitioner, qualified Healer and a p
 
 
 <script type="text/javascript">
+
 	$('#submitEmail').on('click', (event) => {
 
 		let name = $('#name').val();
@@ -329,19 +330,40 @@ proud mother of five. Ammet certified EFT practitioner, qualified Healer and a p
 
 		if (name.length < 3 || email.length < 3 || message.length < 3) {
 			console.log("incomplete fields");
-			return $('#error').toggleClass('d-none d-block');
+			return $('#showStatus').toggleClass('d-none d-block').addClass('text-danger');
 		}
 
-		var data = {name,email,message};
-		data = JSON.stringify(data);
-		$.post(`https://obscure-sierra-92629.herokuapp.com/sendmail/${data}`)
-		.done((msg) => {
-			console.log(msg);
-		})
-		.fail((status,error,code) => {
-			console.log(status,error,code);
-		})
+		var data = {
+			name,
+			email,
+			message
+		};
+
+		var data = JSON.stringify(data);
+
+		console.log(data);
+
+		var settings = {
+		  "async": true,
+		  "url": "https://obscure-sierra-92629.herokuapp.com/sendmail",
+		  "method": "POST",
+		  "headers": {
+		    "Content-Type": "application/json",
+		  },
+		  "processData": false,
+		  "data": data
+		}
+
+		$.ajax(settings).done(function (response) {
+		  console.log(response);
+			return $('#showStatus').toggleClass('d-none d-block').addClass('text-success').html('Your message was sent successfully ! We will contact you soon.');
+		}).fail((xhr,status,code) => {
+			console.log(xhr,status,code);
+			return $('#showStatus').toggleClass('d-none d-block').addClass('text-danger').html('Sorry, email server did not respond, please email me at abidabano1024@gmail.com');
+		});
+
 	})
+
 </script>
 
 </body>
