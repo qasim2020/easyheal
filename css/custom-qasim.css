@@ -73,7 +73,7 @@
 }
 
 .pricing-heading {
-  font-family: SourceSansPro-Regular;
+  /* font-family: SourceSansPro; */
   font-size: 29px;
   color: #FCF8E5;
   letter-spacing: 0.9px;
@@ -81,7 +81,7 @@
 }
 
 .pkr {
-  font-family: SourceSansPro-Regular;
+  /* font-family: SourceSansPro-Regular; */
   font-size: 15px;
   color: #FCF8E5;
   letter-spacing: 0.47px;
@@ -89,7 +89,7 @@
 }
 
 .pricing-values {
-  font-family: SourceSansPro-Regular;
+  /* font-family: SourceSansPro-Regular; */
   font-size: 21px;
   color: #FCF8E5;
   letter-spacing: 0.9px;
@@ -104,13 +104,18 @@
 
 .pricing-notifications {
   margin-top: 20px;
-  font-family: SourceSansPro-Light;
+  /* font-family: SourceSansPro-Light; */
   font-size: 21px;
   color: #1A4271;
   letter-spacing: 0.9px;
   text-align: center;
 }
 
-.green {
-  color: ;
+/* projects */
+
+.projects-notifications {
+  /* margin-top: 100px */
+  font-size: 21px;
+  letter-spacing: 0.9px;
+  text-align: center;
 }
