@@ -58,6 +58,59 @@
   color: #e44c65 !important;
 }
 
-html {
-  /* scroll-behavior: smooth; */
+/* Pricing tag */
+
+.pricing-container {
+  /* margin: 5px 5px; */
+  padding: 5px;
+}
+.pricing-box {
+  background: #1A4271;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 6px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pricing-heading {
+  font-family: SourceSansPro-Regular;
+  font-size: 29px;
+  color: #FCF8E5;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.pkr {
+  font-family: SourceSansPro-Regular;
+  font-size: 15px;
+  color: #FCF8E5;
+  letter-spacing: 0.47px;
+  text-align: center;
+}
+
+.pricing-values {
+  font-family: SourceSansPro-Regular;
+  font-size: 21px;
+  color: #FCF8E5;
+  letter-spacing: 0.9px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.hr-pricing {
+  margin-top: 10px;
+  background-color: color: #FCF8E5;
+}
+
+.pricing-notifications {
+  margin-top: 20px;
+  font-family: SourceSansPro-Light;
+  font-size: 21px;
+  color: #1A4271;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+.green {
+  color: green;
 }
