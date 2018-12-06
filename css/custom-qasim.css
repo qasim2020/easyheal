@@ -70,6 +70,8 @@
   border-radius: 6px;
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 .pricing-heading {
