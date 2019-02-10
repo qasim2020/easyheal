@@ -121,3 +121,49 @@
   letter-spacing: 0.9px;
   text-align: center;
 }
+
+.video-header {
+  font-family: SourceSansPro-Regular;
+  font-size: 24px;
+  color: #000000;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.slick-prev {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translate(0,-50%);
+  cursor: pointer;
+}
+
+.slick-next {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: 0%;
+  transform: translate(0,-50%);
+  cursor: pointer;
+}
+
+.video-caption {
+  /* Best tips for kids: */
+  font-family: SourceSansPro-Regular;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.video {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.your-class > div {
+  height: 200px;
+  /* background-color: black; */
+  color: black;
+};
