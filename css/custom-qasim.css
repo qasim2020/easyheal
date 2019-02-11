@@ -151,9 +151,9 @@
 
 .video-caption {
   /* Best tips for kids: */
-  font-family: SourceSansPro-Regular;
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-family: 'SourceSansPro-Regular','Source Sans Pro',sans-serif;
+  font-size: 18px;
+  /* letter-spacing: 1px; */
   line-height: 34px;
   color: #888;
   text-align: center;
