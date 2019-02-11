@@ -89,8 +89,8 @@ $(document).ready(function() {
       <desc>Created with Sketch.</desc>
       <defs>
           <linearGradient x1="-27.6808806%" y1="31.9856251%" x2="50%" y2="71.4661177%" id="linearGradient-1">
-              <stop stop-color="#E1E1E1" offset="0%"></stop>
-              <stop stop-color="#E6E6E6" offset="100%"></stop>
+              <stop stop-color="#888" offset="0%"></stop>
+              <stop stop-color="#888" offset="100%"></stop>
           </linearGradient>
       </defs>
       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -103,8 +103,8 @@ $(document).ready(function() {
               <desc>Created with Sketch.</desc>
               <defs>
                   <linearGradient x1="-27.6808806%" y1="31.9856251%" x2="50%" y2="71.4661177%" id="linearGradient-1">
-                      <stop stop-color="#E6E6E6" offset="0%"></stop>
-                      <stop stop-color="#E6E6E6" offset="100%"></stop>
+                      <stop stop-color="#888" offset="0%"></stop>
+                      <stop stop-color="#888" offset="100%"></stop>
                   </linearGradient>
               </defs>
               <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -126,14 +126,14 @@ $(document).ready(function() {
               breakpoint: 600,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 2,
               }
             },
             {
               breakpoint: 480,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
               }
             }
           ],
